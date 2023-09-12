@@ -6,7 +6,14 @@ Use case:
 * Have zabbix call a web trigger when an alert is required.
 * The main purpose in this case is to make a warning beacon flash when there is an issue in zabbix, but you can plug anything that is 3v capable.
 
-Installation
+Installation (Linux)
+* apt install python
+* apt install pip
+* apt install vscode
+* Install Micropython IDE extension by Bao Phan (https://marketplace.visualstudio.com/items?itemName=dphans.micropython-ide-vscode) (Search Micropython in VSCode)
+
+
+Installation (Windows)
 * Install python (https://www.python.org/downloads/windows/)
 * Add path to system path
 * Install pip (https://www.activestate.com/resources/quick-reads/how-to-install-pip-on-windows/)
